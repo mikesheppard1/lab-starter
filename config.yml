@@ -36,7 +36,7 @@ steps:
     right: Add name to README         #
   # - type: respond
    with: pr-opened.md
-  #   option: pr-opened.md
+     option: pr-opened.md
   #
   # - type:
   #   option:
