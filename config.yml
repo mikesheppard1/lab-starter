@@ -17,8 +17,8 @@ template:
 
 before:
 - type:     createIssue # the type of action, full list at https://lab.github.com/docs/actions/
-  title: Welcome
-                # some actions require additional options, those should appear below `type:`
+  title: Welcome        # some actions require additional options, those should appear below `type:`
+  body: welcome-text.md
                 # you can execute multiple actions in the `before` block
 
 # Steps for the course
