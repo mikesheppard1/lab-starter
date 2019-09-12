@@ -8,7 +8,7 @@ description: # a longer description for your Learning Lab course, displayed on t
 # The following section template information for the repository
 # This will be used when the repository is crated for each individual learner
 
-template:
+template:   repo: lab-starter-template
   name:     # the name of the repository when it is created for the learner
   repo:     # the name of the template repository from which to clone for the learner
 
