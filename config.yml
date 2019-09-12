@@ -30,7 +30,7 @@ steps:
   description: description: Add your name to the README.md file in your new pull request    # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   event:   pull_request.opened       # a list of the actions that will occur when the step is triggered by an event
   actions:
-  - type:         # the type of action, full list at https://lab.github.com/docs/actions
+  - type:   gate      # the type of action, full list at https://lab.github.com/docs/actions
                   # some actions require additional options, those should appear below `type:`
                   # you can execute multiple actions in the `before` block
                   #
