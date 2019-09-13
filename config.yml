@@ -34,10 +34,9 @@ steps:
     left: '%payload.pull_request.title%'              # some actions require additional options, those should appear below `type:`
     operator: ===          # you can execute multiple actions in the `before` block
     right: Add name to README         #
-   
+     - type: respond
+     with: pr-opened.md
      
-     
-  - type: respond
+
  
-  with: pr-opened.md
  
