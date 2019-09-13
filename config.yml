@@ -16,7 +16,7 @@ template:
 # Actions to take place after the learner registers, but before they start interacting with their repo
 
 before:
-- type:     createIssue # the type of action, full list at https://lab.github.com/docs/actions/
+- type:  createIssue # the type of action, full list at https://lab.github.com/docs/actions/
   title: Welcome        # some actions require additional options, those should appear below `type:`
   body: welcome-text.md
                 # you can execute multiple actions in the `before` block
@@ -34,10 +34,10 @@ steps:
     left: '%payload.pull_request.title%'              # some actions require additional options, those should appear below `type:`
     operator: ===          # you can execute multiple actions in the `before` block
     right: Add name to README         #
-    type: respond
-     with: pr-opened.md
+   
      
-  
-  # - type: 
-  
-  #   option:
+     
+  - type: respond
+ 
+  with: pr-opened.md
+ 
