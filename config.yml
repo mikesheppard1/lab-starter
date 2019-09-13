@@ -35,7 +35,7 @@ steps:
     operator: ===          # you can execute multiple actions in the `before` block
     right: Add name to README         #
    # - type: respond
-   with: pr-opened.md
+  option: with: pr-opened.md
      
   #
   # - type:
